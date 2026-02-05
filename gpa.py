@@ -10,12 +10,10 @@ def calculate_average_gpa(filename):
 
             for row in reader:
                 try:
-                    # Assume GPA is last column
                     gpa = float(row[-1])
                     total += gpa
                     count += 1
                 except:
-                    # Skip invalid rows
                     continue
 
         if count == 0:
