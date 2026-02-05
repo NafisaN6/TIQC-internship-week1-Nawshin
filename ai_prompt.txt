@@ -1,0 +1,10 @@
+AI PROMPT USED:
+
+Create a Python script that reads a students.csv file and calculates the average GPA.
+Skip invalid or malformed rows and round the result to two decimals.
+
+
+REFLECTION:
+
+The first version crashed when the file was missing. I updated it to handle FileNotFoundError.
+I also added logic to skip invalid GPA rows and return 0 if there are no valid rows.
