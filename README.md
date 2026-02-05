@@ -9,8 +9,10 @@ Invalid or malformed rows are skipped.
 ## How to Run
 
 Run the program:
+python gpa.py
 
 Run tests:
+python test_gpa.py
 
 ---
 
@@ -26,14 +28,3 @@ Run tests:
 ## Sample Output
 
 Average GPA: 3.5
-
-## AI PROMPT USED:
-
-Create a Python script that reads a students.csv file and calculates the average GPA.
-Skip invalid rows and round to two decimals.
-
-
-REFLECTION:
-
-The first version crashed when the file was missing. I updated it to handle FileNotFoundError.
-I also added logic to skip invalid GPA rows and return 0 if there are no valid rows.
