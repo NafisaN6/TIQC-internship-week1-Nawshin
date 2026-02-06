@@ -1,0 +1,9 @@
+AI PROMPT USED:
+
+Create a simple Node.js CLI todo app that can add, list, and complete todos using a JSON file.
+
+
+REFLECTION:
+
+The first version did not handle missing files. I updated it to create the JSON file if it does not exist.
+I also simplified the tests so they can run without extra libraries.
