@@ -19,9 +19,9 @@ Run tests:
 node test_todo.js
 
 ## Assumptions
-- Todos stored in todos.json
-- Each todo has id, text, completed
-- File is created if missing
+- Todos are stored in todos.json
+- Each todo has an id, text, and is completed
+- A file is created if missing
 
 ## Sample Output
 Todo added
