@@ -1,30 +1,28 @@
-# CSV GPA Calculator
+# Todo CLI
 
 ## Description
-This program reads a CSV file of students and calculates the average GPA rounded to two decimals.  
-Invalid or malformed rows are skipped.
-
----
+A command line todo app that lets users add, list, and complete todos.
+Todos are stored in a local JSON file.
 
 ## How to Run
 
-Run the program:
-python gpa.py
+Add todo:
+node todo.js add "Buy milk"
+
+List todos:
+node todo.js list
+
+Complete todo:
+node todo.js complete 1
 
 Run tests:
-python test_gpa.py
-
----
+node test_todo.js
 
 ## Assumptions
-
-- GPA is the last column in each row
-- Invalid rows are skipped
-- If file is empty, average GPA = 0
-- If file is missing, program prints error
-
----
+- Todos stored in todos.json
+- Each todo has id, text, completed
+- File is created if missing
 
 ## Sample Output
-
-Average GPA: 3.5
+Todo added
+1. [ ] Buy milk
